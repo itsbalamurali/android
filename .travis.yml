@@ -22,3 +22,7 @@ before_install:
   - git clone https://github.com/umang96/radon-kenzo -b radon-cm-ng kernel/xiaomi/kenzo
   - git clone https://github.com/TheMuppets/proprietary_vendor_xiaomi -b cm-14.0 vendor/xiaomi
   - ls -a
+  - make clobber
+  - source build/envsetup.sh
+  - lunch aosp_arm-user
+  - make -j4
