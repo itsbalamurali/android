@@ -1,5 +1,5 @@
 language: java
-
+sudo: required
 before_install:
   - sudo apt-get update -q
   - sudo apt-get install openjdk-8-jdk
