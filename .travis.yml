@@ -17,7 +17,7 @@ before_install:
   - PATH=~/bin:$PATH
   - curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
   - chmod a+x ~/bin/repo
-  - mkdir android
+  #- mkdir android
   - cd android
   - git config --global color.ui false 
   - repo init -u https://android.googlesource.com/platform/manifest -b android-7.0.0_r3
