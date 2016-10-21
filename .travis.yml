@@ -18,3 +18,4 @@ before_install:
   - git clone https://github.com/CyanogenMod/android_device_xiaomi_kenzo.git -b cm-14.0 device/xiaomi/kenzo
   - git clone https://github.com/umang96/radon-kenzo -b radon-cm-ng kernel/xiaomi/kenzo
   - git clone https://github.com/TheMuppets/proprietary_vendor_xiaomi -b cm-14.0 vendor/xiaomi
+  - ls -a
