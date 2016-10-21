@@ -16,8 +16,8 @@ before_install:
   - chmod a+x ~/bin/repo
   - mkdir android
   - cd android
-  - repo init -u https://android.googlesource.com/platform/manifest -b android-7.0.0_r3
-  - repo sync
+  - repo init -u https://android.googlesource.com/platform/manifest -b android-7.0.0_r3 -y
+  - repo sync 
   - git clone https://github.com/CyanogenMod/android_device_xiaomi_kenzo.git -b cm-14.0 device/xiaomi/kenzo
   - git clone https://github.com/umang96/radon-kenzo -b radon-cm-ng kernel/xiaomi/kenzo
   - git clone https://github.com/TheMuppets/proprietary_vendor_xiaomi -b cm-14.0 vendor/xiaomi
