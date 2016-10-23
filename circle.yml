@@ -33,7 +33,7 @@ checkout:
 dependencies:
   pre:
     - make clobber
-    - source build/envsetup.sh
+    - . build/envsetup.sh
     - lunch aosp_arm-user
     - make -j4
 
